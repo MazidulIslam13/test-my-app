@@ -1,0 +1,44 @@
+কনফিগ (Config)
+গিট এর গ্লোবাল ইউজার নেম সেট করা
+
+git config --global user.name "username"
+গিট এর গ্লোবাল ইউজার নেম চেক করা
+
+git config --global user.name
+গিট এর গ্লোবাল ইউজার ইমেল সেট করা
+
+git config --global user.email "user@name.com"
+গিট এর গ্লোবাল ইউজার ইমেল চেক করা
+
+git config --global user.email
+গিট এর লোকাল/একটি নির্দিষ্ট রিপোজিটরির ইউজার নেম সেট করা
+
+git config user.name "username"
+গিট এর লোকাল/একটি নির্দিষ্ট রিপোজিটরির ইউজার নেম চেক করা
+
+git config user.name
+গিট এর লোকাল/একটি নির্দিষ্ট রিপোজিটরির ইউজার ইমেল সেট করা
+
+git config user.email "user@name.com"
+গিট এর লোকাল/একটি নির্দিষ্ট রিপোজিটরির ইউজার ইমেল চেক করা
+
+git config user.email
+গিট এর গ্লোবাল ইউজার নেম বাতিল করা
+
+git config --global --unset-all user.name
+গিট এর গ্লোবাল ইউজার ইমেইল বাতিল করা
+
+git config --global --unset-all user.email
+গিট এর লোকাল/একটি নির্দিষ্ট রিপোজিটরির ইউজার নেম বাতিল করা
+
+git config --unset user.name
+গিট এর লোকাল/একটি নির্দিষ্ট রিপোজিটরির ইউজার ইমেইল বাতিল করা
+
+git config --unset user.email
+একটি নির্দিষ্ট ব্রাঞ্চের জন্য ইউজার নেম, পাসওয়ার্ড সেভ করা
+
+git config credential.helper store
+সকল ব্রাঞ্চের জন্য ইউজার নেম, পাসওয়ার্ড সেভ করা
+
+git config --global credential.helper storeclae
+

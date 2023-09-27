@@ -1,0 +1,61 @@
+সাধারণ (General)
+নতুন রিপোজিটরি তৈরী করা
+
+git init
+কোনো রিপোজিটরি ক্লোন করা(লোকাল মেশিনে ডাউনলোড করা)
+
+git clone [url]
+রিপোজিটরি এর বর্তমান অবস্থা/পরিবর্তনগুলো দেখা (নতুন অথবা পুরোনো, কি কি ফাইল কমিট করতে হবে, ওয়ার্কিং ব্রাঞ্চ ইত্যাদি)
+
+git status
+কমিট এর জন্যে সব পরিবর্তিত ফাইল এড করা
+
+git add OR git add . OR git add --all OR git add -A
+কাস্টম ফাইল কমিট এর জন্যে এড করা
+
+git add index.html OR git add [file]
+একটি নির্দিষ্ট এক্সটেনশন এর সকল ফাইল এড করা
+
+git add *.ext
+একটি নির্দিষ্ট ফোল্ডারের সকল ফাইল এড করা
+
+git add /folder
+একটি নির্দিষ্ট ফোল্ডারের একটি নির্দিষ্ট এক্সটেনশন এর সকল ফাইল এড করা
+
+git add folder/*.ext
+রিপোজিটরি তে কিছু কমিট করা (কমিট মেসেজসহ)
+
+git commit -m "YourCommitMessage"
+কমিট মেসেজ সংশোধন করা
+
+git commit --amend -m "your message"
+টাইটেল এবং ডেসক্রিপশন সহ কমিট করতে
+
+git commit -m "Title" -m "Description..."
+অ্যাড এবং কমিট এক স্টেপ এ করতে
+
+git commit -am "Message"
+নির্দিষ্ট কমিট দেখা
+
+git show {commit-id}
+সমস্ত পরিবর্তন আপডেট করতে
+
+git add -u
+ফাইল রিমুভ করতে
+
+git rm index.html
+রিপোজিটরিতে এড করা ফাইল আনট্র্যাক করা
+
+git rm --cached index.html OR git rm --cached filename
+gitignore এ থাকা সকল ফাইল আনট্র্যাক করা
+
+git rm -r --cached .
+ফাইল মুভ অথবা রিনেইম করতে
+
+git mv index.html dir/index_new.html
+নির্দিষ্ট কমিট পরিবর্তন না করা (ফাইল সর্বশেষ কমিট ভার্সন থেকে রিস্টোর করতে)
+
+git checkout -- index.html
+সকল কমিট পরিবর্তন না করা
+
+git checkout -- .

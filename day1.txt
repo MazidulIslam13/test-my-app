@@ -1,1 +1,28 @@
-This is day 1. This is new data for day1.gi
+ইনস্টল (Setup)
+গিট ইনস্টল ( ম্যাক )
+
+brew install git
+গিট আনইনস্টল (ম্যাক)
+
+brew remove git
+গিট ইনস্টল (উবুন্টু)
+
+sudo apt-get install git
+গিট আনইনস্টল (উবুন্টু)
+
+sudo apt-get remove git
+গিট ইন্সটল CentOs
+
+sudo yum install git
+গিট আনইনস্টল CentOs
+
+yum remove git
+গিট ভার্সন চেক
+
+git --version
+গিটটি কোথায় রয়েছে তা দেখুন
+
+which git
+গিট সাহায্য
+
+git help
